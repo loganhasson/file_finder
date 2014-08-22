@@ -11,7 +11,7 @@ module FileFinder
     @configuration ||= FileFinder::Configuration.new
   end
 
-  def self.configure
+  def self.config
     yield configuration
   end
 end
