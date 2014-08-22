@@ -1,6 +1,6 @@
 # FileFinder
 
-TODO: Write a gem description
+Easily access files within your gems' directory structures.
 
 ## Installation
 
