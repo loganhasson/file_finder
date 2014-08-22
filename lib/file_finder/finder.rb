@@ -5,7 +5,7 @@ module FileFinder
   end
 
   class Finder
-    att_reader :path, :configuration
+    attr_reader :path, :configuration
 
     def self.get_absolute_path_to(path)
       new(path).absolute_path
@@ -16,7 +16,7 @@ module FileFinder
     end
 
     def absolute_path
-      ::File.join(::File.dirname(::File.expand_path(__FILE__)), path)
+      File.join(File.dirname(File.expand_path(__FILE__)), path)
     end
   end
 
