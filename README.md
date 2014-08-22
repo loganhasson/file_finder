@@ -1,3 +1,4 @@
+# NOT WORKING YET
 # FileFinder
 
 Easily access files within your gems' directory structures. Why is this
