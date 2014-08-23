@@ -1,4 +1,3 @@
-# NOT WORKING YET
 # FileFinder
 
 Easily access files within your gems' directory structures. Why is this
@@ -79,6 +78,11 @@ this problem is the alternate setting the `global_method`
 configuration option between `true` and `false` if you intend to change
 it on the fly. Really, you should only be setting this option once.
 
+## Todo
+
+1. Write specs
+2. Solve known issue
+
 ## Contributing
 
 1. Fork it ( https://github.com/loganhasson/file_finder/fork )
@@ -86,3 +90,4 @@ it on the fly. Really, you should only be setting this option once.
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
