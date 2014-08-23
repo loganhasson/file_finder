@@ -11,6 +11,6 @@ module Kernel
 
   private
   module_function def apath_to(path)
-    FileFinder::Finder.get_absolute_path_to(path)
+  FileFinder::Finder.get_absolute_path_to(path, Kernel.caller.first.match(/(.*):.*:.*/)[1])
   end
 end
