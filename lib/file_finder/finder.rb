@@ -19,7 +19,6 @@ module FileFinder
     end
 
     def absolute_path
-      #calling_file = Kernel.caller.first.match(/(.*):.*:.*/)[1]
       Pathname.new(File.join(File.dirname(File.expand_path(calling_file)), path)).expand_path.to_s
     end
 
